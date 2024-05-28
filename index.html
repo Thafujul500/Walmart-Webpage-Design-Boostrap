@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>walmart(Boostrap)</title>
+
+    <!-- Boosrap -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Boosrap -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- Font Awesome cdn -->
+  </head>
+  <body>
+    <header>
+      <div class="header-top bg-primary d-flex">
+        <div class="col-md-1">
+          <img
+            class="mt-4 ms-3 w-100"
+            src="Photos\walmartLogo.svg"
+            alt="Sorry"
+          />
+        </div>
+
+        <div class="col-md-1 d-flex justify-content-start ms-3 mt-2">
+          <i style="font-size: 10px !important" class="fa-solid fa-bars text-light mt-4 ms-3 me-2"
+          ></i>
+          <h6
+            style="font-size: 10px !important" class="mt-4 w-25 fs-6 text-light">Departments</h6>
+        </div>
+        <div class="col-md-1 d-flex justify-content-start ms-3 mt-2">
+          <i
+            style="font-size: 15px !important" class="fa-brands fa-servicestack text-light mt-4 ms-3 me-2"
+          ></i> <h6 style="font-size: 10px !important" class="mt-4 w-25 fs-6 text-light">Services</h6>
+        </div>
+        <div class="col-md-6">
+          <input style="font-size: 10px" placeholder="Search everything in walmart online and in store"
+            class="m-4 w-100 ps-3 pt-1 pb-1 border-0 rounded rounded-5 focus" type="text"/>
+        </div>
+
+        <div class="col-md-1 d-flex text-light ms-5 mt-3">
+          <i class="fa-regular fa-heart mt-2 me-2 border-dark"></i>
+          <div>
+            <p class="mb-1" style="font-size: 8px !important">Reorder</p>
+            <h3 class="mb-3" style="font-size: 10px !important">My Items</h3>
+          </div>
+        </div>
+        <div class="col-md-1 d-flex text-light mt-3">
+          <i class="fa-regular fa-user mt-2 me-2 border-dark"></i>
+          <div>
+            <p class="mb-1" style="font-size: 8px !important">Sign In</p>
+            <h3 class="mb-3" style="font-size: 10px !important">Account</h3>
+          </div>
+          <i class="fa-solid fa-cart-shopping mt-2 ms-2 border-dark"></i>
+        </div>
+      </div>
+
+      <!--header-top-->
+
+      <div class="header-middle bg-primary fs-6 border-top border-light">
+        <ul class="d-flex align-items-center pt-2" style="list-style-type: none; font-size: 10px">
+          <li class="text-light">
+            <i class="fa-solid fa-comments-dollar"></i> How do you want your items?
+          </li>
+          <li class="text-light">
+            <i class="fa-solid fa-location-dot ms-2 me-2"></i>Sacramento,95829
+          </li>
+          <li class="text-light">
+            <i class="fa-solid fa-house ms-2 me-2"></i>Sacramento Supercenter
+          </li>
+          <li class="ms-2 me-2 text-light">Deals</li>
+          <li class="ms-2 me-2 text-light">Glocery and Essentials</li>
+          <li class="ms-2 me-2 text-light">Easter</li>
+          <li class="ms-2 me-2 text-light">Fashion</li>
+          <li class="ms-2 me-2 text-light">Home</li>
+          <li class="ms-2 me-2 text-light">Electronics</li>
+          <li class="ms-2 me-2 text-light">Patio and Garder</li>
+          <li class="ms-2 me-2 text-light">Auto</li>
+          <li class="ms-2 me-2 text-light">Toys</li>
+          <li class="ms-2 me-2 text-light">Registry</li>
+          <li class="ms-2 me-2 text-light">ONE Debit</li>
+        </ul>
+        
+      <!--header-middle-->
+
+      <div class="header-bottom fw-bold bg-body-secondary">
+        <ul style="list-style-type: none; font-size: 10px; color: black;" class="d-flex justify-content-center align-items-center">
+          <li class="m-2">Savings</li>
+          <li class="m-2">Furnitures</li>
+          <li class="m-2">KItching and Dining</li>
+          <li class="m-2">Storage and Organization</li>
+          <li class="m-2">Appliances and Floorcare</li>
+          <li class="m-2">Decor</li>
+          <li class="m-2">Bad and Bath</li>
+          <li class="m-2">Brand and Features Shops</li>
+        </ul>
+      </div>
+      <!--header-bottom-->
+    </header>
+    <!-- header -->
+    
+    <!-- main -->
+
+    <main>
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-7">
+                    <img style="height: 300px;" class="w-100  rounded rounded-2" src="Photos\2bd_bed_.jpg" alt="sorry">
+                </div>
+                <div class="col-md-5">
+                    <img style="height: 300px;" class="w-100 rounded rounded-2" src="Photos\third_chair.jpg" alt="sorry">
+                </div>
+            </div>
+
+            <div class="shop_the_look ">
+                <h1 class="fs-5 mt-3">Shop the look</h1>
+                <div class="row">
+
+                    <div class="col-md-2"> <!--1-->
+                        <div class="card" style="height: 400px;">
+                            <img src="Photos\furnicute1.jpg" class="card-img-top" style="height: 120px; width: 100%;" alt="sorry">
+                            <p style="font-size: 8px;" class="text-center mt-2">+2 Options </p>
+
+                            <div style="margin-top: 0px!important" class="card-body">
+                                <h5 class="card-title text-success mt-0" style="font-size: 15px;">Now $450 <span class="text-decoration-line-through" style="font-size: 8px;">$604.32</span></h5>
+                                <p class="card-text" style="font-size: 10px;">Options from $458.00 - $494.00</p>
+                                <p class="card-text" style="font-size: 10px;">BME Aurous 43" Queen Platform Bed Frame, Rattan Headboard, Bohemian Style, Solid Wood, Caramel</p>
+                                
+                                <a href="#" style="font-size: 10px;" class="btn btn-secondary btn-sm">2+ day shipping</a>
+                            </div>
+                            
+                        </div> <!--card-->
+                            
+                    </div> <!--1-->
+
+                    <div class="col-md-2"> <!--2-->
+                        <div class="card" style="height: 400px;">
+
+                            <img src="Photos\furnicute2.jpg" class="card-img-top" style="height: 120px; width: 100%;" alt="sorry">
+
+                            <p style="font-size: 8px;" class="text-center mt-2">+3 Options </p>
+
+                            <div style="margin-top: 0px!important" class="card-body">
+                                <h5 class="card-title text-success mt-0" style="font-size: 15px;">Now $1050 <span class="text-decoration-line-through" style="font-size: 8px;">$1200.32</span></h5>
+                                <p class="card-text" style="font-size: 10px;">Options from $998.00 - $1086.90</p>
+                                <p class="card-text" style="font-size: 10px;">Bohemian Style, Solid Wood, Better Homes & Gardens Woven Water Hyacinth Tank Basket, Natural</p>
+                                
+                                <a href="#" style="font-size: 10px;" class="btn btn-secondary btn-sm">3+ day shipping</a>
+                            </div>
+                            
+                        </div> <!--card-->
+                            
+                    </div> <!--2-->
+
+                    <div class="col-md-2"> <!--3-->
+                        <div class="card" style="height: 400px;" >
+
+                            <img src="Photos\hatil .png" class="card-img-top" style="height: 120px; width: 100%" alt="sorry">
+
+                            <p style="font-size: 8px;" class="text-center mt-2">+4 Options </p>
+
+
+                            <div style="margin-top: 0px!important" class="card-body">
+                                <h5 class="card-title text-success mt-0" style="font-size: 15px;">Now $890 <span class="text-decoration-line-through" style="font-size: 8px;">$950.32</span></h5>
+                                <p class="card-text" style="font-size: 10px;">Options from $849.00 - $100.56</p>
+                                <p class="card-text" style="font-size: 10px;">Better Homes & Gardens 3-Piece Grey Waffle Comforter Full/Queen.Beautiful 6 Qt Programmable Slow Cooker, White Icing.</p>
+                                
+                                <a href="#" style="font-size: 10px;" class="btn btn-secondary btn-sm">2+ day shipping</a>
+                            </div>
+                            
+                        </div> <!--card-->
+                            
+                    </div> <!--3-->
+
+                    <div class="col-md-2"> <!--4-->
+                        <div class="card" style="height: 400px;" >
+
+                            <img src="Photos\furnicure4.jpg" class="card-img-top" style="height: 120px; width: 100%;" alt="sorry">
+
+                            <p style="font-size: 8px;" class="text-center mt-2">+2 Options </p>
+
+
+                            <div style="margin-top: 0px!important" class="card-body">
+                                <h5 class="card-title text-success mt-0" style="font-size: 15px;">Now $300 <span class="text-decoration-line-through" style="font-size: 8px ">$480.32</span></h5>
+                                <p class="card-text" style="font-size: 10px;">Options from $290.90 - $342.70</p>
+                                <p class="card-text" style="font-size: 10px;">Bohemian Style, Solid Wood, Caramel & Better Homes & Gardens Mira Swivel Chair, Cream or 6 Qt Air .</p>
+                                
+                                <a href="#" style="font-size: 10px;" class="btn btn-secondary btn-sm">5+ day shipping</a>
+                            </div>
+                            
+                        </div> <!--card-->
+                            
+                    </div> <!--4-->
+
+                    <div class="col-md-2"> <!--5-->
+                        <div class="card" style="height: 400px;">
+
+                            <img src="Photos\furnicure5.jpg" class="card-img-top" style="height: 120px; width: 100%;" alt="sorry">
+
+                            <p style="font-size: 8px;" class="text-center mt-2">+4 Options </p>
+
+
+                            <div style="margin-top: 0px!important" class="card-body">
+                                <h5 class="card-title text-success mt-0" style="font-size: 15px;">Now $798 <span class="text-decoration-line-through" style="font-size: 8px;">$928.32</span></h5>
+                                <p class="card-text" style="font-size: 10px;">Options from $758.00 - $994.00</p>
+                                <p class="card-text" style="font-size: 10px;">Walker Edison Mid-Century Modern Slatted Solid Wood Queen Bedframe, Natural Pine and very nice.</p>
+                                
+                                <a href="#" style="font-size: 10px;" class="btn btn-secondary btn-sm">3+ day shipping</a>
+                            </div>
+                            
+                        </div> <!--card-->
+                            
+                    </div> <!--5-->
+
+                    <div class="col-md-2"> <!--6-->
+                        <div class="card" style="height: 400px;">
+
+                            <img src="Photos\furnicure6.jpg" class="card-img-top" style="height: 120px; width: 100%;" alt="sorry">
+
+                            <p style="font-size: 8px;" class="text-center mt-2">+7 Options </p>
+
+
+                            <div style="margin-top: 0px!important" class="card-body">
+                                <h5 class="card-title text-success mt-0" style="font-size: 15px;">Now $250 <span class="text-decoration-line-through" style="font-size: 8px;">$390.32</span></h5>
+                                <p class="card-text" style="font-size: 10px;">Options from $235.00 - $261.90</p>
+                                <p class="card-text" style="font-size: 10px;">Mainstays 100% Cotton Woven Oblong Decorative Pillow, Multi-Color, 14" x 20" and Solid Wood Queen Bedframe</p>
+                                
+                                <a href="#" style="font-size: 10px;" class="btn btn-secondary btn-sm">4+ day shipping</a>
+                            </div>
+                            
+                        </div> <!--card-->
+                            
+                    </div> <!--6-->
+
+                    
+
+
+                </div> <!--row-->
+            </div>
+
+            <div class="now-trending border-top mt-3">
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <h6 class="pb-3 border-bottom mt-3 text-bold">Categories</h6>
+                        <div class="d-flex border-bottom position-relative">
+                            <img src="Photos\App1.jpg" alt="sorry">
+                            <p style="font-size: 10px; font-weight: bold;" class="ms-3 mt-3">Appliances</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-3"></i>
+                        </div>
+
+                        <div class="d-flex border-bottom position-relative">
+                            <img src="Photos\App2.jpg" alt="sorry">
+                            <p style="font-size: 10px; font-weight: bold;" class="ms-3 mt-3">Bath</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-3"></i>
+                        </div>
+
+                        <div class="d-flex border-bottom position-relative">
+                            <img src="Photos\App3.jpg" alt="sorry">
+                            <p style="font-size: 10px; font-weight: bold;" class="ms-3 mt-3">Bedding</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-3"></i>
+                        </div>
+
+                        <div class="d-flex border-bottom position-relative">
+                            <img src="Photos\App4.jpg" alt="sorry">
+                            <p style="font-size: 10px; font-weight: bold;" class="ms-3 mt-3">Decor</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-3"></i>
+                        </div>
+
+                        <div class="d-flex border-bottom position-relative">
+                            <img src="Photos\App5.jpg" alt="sorry">
+                            <p style="font-size: 10px; font-weight: bold;" class="ms-3 mt-3">Furnicute</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-3"></i>
+                        </div>
+
+                        <div class="d-flex border-bottom position-relative">
+                            <img src="Photos\App6.jpg" alt="sorry">
+                            <p style="font-size: 10px; font-weight: bold;" class="ms-3 mt-3">Kitcher and Dining</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-3"></i>
+                        </div>
+                        
+                        <div class="d-flex border-bottom position-relative">
+                            <img src="Photos\App7.jpg" alt="sorry">
+                            <p style="font-size: 10px; font-weight: bold;" class="ms-3 mt-3">Storage and Organization</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-3"></i>
+                        </div>
+
+                        <div class="d-flex border-bottom position-relative">
+                            <img src="Photos\App8.jpg" alt="sorry">
+                            <p style="font-size: 10px; font-weight: bold;" class="ms-3 mt-3">Luggage</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-3"></i>
+                        </div>
+
+                        <div class="d-flex border-bottom position-relative">
+                            <img src="Photos\App9.jpg" alt="sorry">
+                            <p style="font-size: 10px; font-weight: bold;" class="ms-3 mt-3">Mattresses</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-3"></i>
+                        </div>
+
+                        <div class="d-flex border-bottom position-relative">
+                            <img src="Photos\App10.jpg" alt="sorry">
+                            <p style="font-size: 10px; font-weight: bold;" class="ms-3 mt-3">Kids Room</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-3"></i>
+                        </div>
+
+                        <h4 class="text-bold fs-5 mt-3 border-bottom pb-3">Savings</h4>
+
+                        <div class="d-flex border-bottom position-relative">
+                            <p style="font-size: 10px; font-weight: bold;" class="mt-2">Deals</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-2"></i>
+                        </div>
+
+                        <div class="d-flex border-bottom position-relative">
+                            <p style="font-size: 10px; font-weight: bold;" class="mt-2">Clearance</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-2"></i>
+                        </div>
+
+                        <h4 class="text-bold fs-5 mt-3 border-bottom pb-3">Feature Brands</h4>
+
+                        <div class="d-flex border-bottom position-relative">
+                            <p style="font-size: 10px; font-weight: bold;" class="mt-2">Only at Walmart</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-2"></i>
+                        </div>
+
+                        <div class="d-flex border-bottom position-relative">
+                            <p style="font-size: 10px; font-weight: bold;" class="mt-2">Brandss We Love</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-2"></i>
+                        </div>
+
+                        <h4 class="text-bold fs-5 mt-3 border-bottom pb-3">Trending</h4>
+
+                        <div class="d-flex border-bottom position-relative">
+                            <p style="font-size: 10px; font-weight: bold;" class="mt-2">Features Shops</p>
+                            <i class="fa-solid fa-angle-down position-absolute end-0 mt-2"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8">
+                      
+                        <img class="w-100 mt-3" src="Photos\cloth.jpg" alt="sorry">
+
+                        <h6 class="ms-4">An ahh-worthy bath</h6>
+                        <p style="font-size: 10px;" class="ms-4">Take time for you with hints of florals & soft touches.</p>
+
+                        <div class="row">
+
+                            <div class="col-md-3">
+                                <div style="border: none;" class="card border-none">
+                                    <img src="Photos\cloth_final.jpg" class="card-img-top" alt="sorry">
+                                    <div style="padding-left: 0;" class="card-body">
+                                        <button style="font-size: 8px;" type="button" class="btn btn-primary btn-sm rounded rounded-5 fw-bold">+ ADD</button>
+                                        <p>$10.97</p>
+                                        <p style="font-size: 10px;">Mainstays Floral Flowers Polyester Shower Curtains, 72" x 72", Pink</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                            <div class="col-md-3 ">
+                                <div style="border: none;" class="card border-none">
+                                    <img src="Photos\medicine.jpg" class="card-img-top" alt="sorry">
+                                    <div style="padding-left: 0;" class="card-body">
+                                        <button style="font-size: 8px;" type="button" class="btn btn-primary btn-sm rounded rounded-5 fw-bold">+ ADD</button>
+                                        <p>$12.89</p>
+                                        <p style="font-size: 10px;">Better Homes & Gardens 18oz Blue Fern & Citrus Scented 2-Wick Ombre Bell Jar Candle</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 ">
+                                <div style="border: none;" class="card border-none">
+                                    <img style="height: 130px;" src="Photos\wooden_box.jpg" class="card-img-top" alt="sorry">
+                                    <div style="padding-left: 0;" class="card-body">
+                                        <button style="font-size: 8px;" type="button" class="btn btn-primary btn-sm rounded rounded-5 fw-bold">+ ADD</button>
+                                        <p>$18.98</p>
+                                        <p style="font-size: 10px;">Better Homes & Gardens Woven Water Hyacinth Tank Basket, Natural</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-3">
+                                <div style="border: none;" class="card border-none">
+                                    <img src="Photos\anoter_Cloth.jpg" class="card-img-top" alt="sorry">
+                                    <div style="padding-left: 0;" class="card-body">
+                                        <button style="font-size: 8px;" type="button" class="btn btn-primary btn-sm rounded rounded-5 fw-bold">+ ADD</button>
+                                        <p>$24.97</p>
+                                        <p style="font-size: 10px;">Better Homes & Gardens 2 Piece Extra Soft Cloud Bath Rug Set, Aqua, Polyester</p>
+
+                                    </div>
+                                </div>
+                            </div>
+ 
+                        </div>
+
+                        <img style="height: 300px;" class="w-100 rounded rounded-3" src="Photos\food.gif" alt="sorry">
+
+                        <h6 class="mt-4">Shop by category</h6>
+                        
+
+
+                        <div class="row"> <!--1st-->
+                            <div class="col-md-2">
+                                <img class="w-100 h-75" src="Photos\B1.jpg" alt="Sorry">
+                                <p style="font-size: 10px;">Kitchen & dining</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="w-100 h-75" src="Photos\B2.jpg" alt="Sorry">
+                                <p style="font-size: 10px;text-align: center;">Furniture</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="w-100 h-75" src="Photos\B3.jpg" alt="Sorry">
+                                <p style="font-size: 10px;text-align: center;">Decor</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="w-100 h-75" src="Photos\B4.jpg" alt="Sorry">
+                                <p style="font-size: 10px;text-align: center;">Bedding</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="w-100 h-75" src="Photos\B5.jpg" alt="Sorry">
+                                <p style="font-size: 10px;text-align: center;">Store</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="w-100 h-75" src="Photos\B6.jpg" alt="Sorry">
+                                <p style="font-size: 10px;text-align: center;">Bath</p>
+                            </div>
+                        </div>
+
+                        <div class="row border-bottom pb-3 mt-5"> <!--2nd-->
+                            <div class="col-md-2">
+                                <img class="w-100 h-75" src="Photos\B7.jpg" alt="Sorry">
+                                <p style="font-size: 10px; text-align: center;">Mattress</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="w-100 h-75" src="Photos\B8.jpg" alt="Sorry">
+                                <p style="font-size: 10px;text-align: center;">Appliances</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="w-100 h-75" src="Photos\B9.jpg" alt="Sorry">
+                                <p style="font-size: 10px;text-align: center;">Curtains</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="w-100 h-75" src="Photos\B10.jpg" alt="Sorry">
+                                <p style="font-size: 10px;text-align: center;">Kitchen Appliances</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="w-100 h-75" src="Photos\B11.jpg" alt="Sorry">
+                                <p style="font-size: 10px;text-align: center;">Rugs</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="w-100 h-75" src="Photos\B12.jpg" alt="Sorry">
+                                <p style="font-size: 10px;text-align: center;">Craft Furniture and More</p>
+                            </div>
+                        </div>
+
+                        <h6 class="mt-4 mb-3">Get it all, right here</h6>
+
+                        <div class="row border-bottom">
+                            <div class="col-md-2">
+                                <p style="width: 80px; height: 80px; font-weight: bold; font-size: 12px; " class="rounded-circle bg-light d-flex justify-content-center align-items-center text-center">Pick Up</p>
+                            </div>
+
+                            <div class="col-md-2">
+                                <p style="width: 80px; height: 80px;font-weight: bold; font-size: 12px; " class="rounded-circle bg-light d-flex justify-content-center align-items-center text-center">New and tranding</p>
+                            </div>
+
+                            <div class="col-md-2">
+                                <p style="width: 80px; height: 80px;font-weight: bold; font-size: 12px; " class="rounded-circle bg-light d-flex justify-content-center align-items-center text-center">Easter</p>
+                            </div>
+
+                            <div class="col-md-2">
+                                <p style="width: 80px; height: 80px;font-weight: bold; font-size: 12px; " class="rounded-circle bg-light d-flex align-items-center justify-content-center text-center">Spring break</p>
+                            </div>
+
+                            <div class="col-md-2">
+                                <p style="width: 80px; height: 80px;font-weight: bold; font-size: 12px; " class="rounded-circle bg-light d-flex justify-content-center align-items-center text-center">Shaope by room</p>
+                            </div>
+
+                            <div class="col-md-2">
+                                <p style="width: 80px; height: 80px;font-weight: bold; font-size: 12px; " class="rounded-circle bg-light d-flex justify-content-center align-items-center text-center">Shaope by style</p>
+                            </div>
+                        </div>
+
+                        <h6 class="mt-4">Simple swaps</h6>
+
+                        <div class="row border-bottom pb-3">
+                            <div class="col-md-4"> <!--1-->
+                                <div class="card" >
+                                    <img style="height: 150px;" src="Photos\from3.jpg" class="card-img-top" alt="sorry">
+                                    <div class="card-body">
+
+                                      <h5 style="font-size: 12px;" class="card-title">Spring table switch-up</h5>
+                                      <p style="font-size: 10px;" class="card-text ">No need for all-new. An edit or two will make a big difference..</p>
+                                      <a href="#" class="btn text-dark border-dark btn-sm bg-light rounded-5">Shop Now</a>
+                                     
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <div class="col-md-4"> <!--2-->
+                                <div class="card" >
+                                    <img style="height: 150px;" src="Photos\from11.jpg" class="card-img-top" alt="sorry">
+                                    <div class="card-body">
+
+                                      <h5 style="font-size: 12px;" class="card-title">Curate a chic corner</h5>
+                                      <p style="font-size: 10px;" class="card-text ">Fresh decor can breathe new life into any nook.</p>
+                                      <a href="#" class="btn text-dark border-dark btn-sm bg-light rounded-5">Shop Now</a>
+                                      
+                                    
+                                      
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <div class="col-md-4"> <!--3-->
+                                <div class="card" >
+                                    <img style="height: 150px;" src="Photos\from4.jpg" class="card-img-top" alt="sorry">
+                                    <div class="card-body">
+
+                                      <h5 style="font-size: 12px;" class="card-title">Curate a chic corner</h5>
+                                      <p style="font-size: 10px;" class="card-text">Fresh decor can breathe new life into any nook.</p>
+                                      <a href="#" class="btn text-dark border-dark btn-sm bg-light rounded-5 text-bold">Shop Now</a>
+                                      
+                                    </div>
+                                  </div>
+                            </div>
+
+                        </div>
+
+                        <h6 class="mt-4">Too good to miss</h6>
+
+                        <div class="row border-bottom pb-3">
+
+                            <div class="col-md-6"> <!--1-->
+
+
+                                <div class="card p-3 border-1 shadow">
+
+                                    <img style="height: 200px;" class="w-100 rounded-3" src="Photos\cloch_with_chair.jpg" class="card-img-top" alt="sorry">
+
+                                    <div class="card-body">
+                                      <h5 style="font-size: 12px;" class="card-title ">Beach Towels in Bath</h5>
+                                      <p style="font-size: 10px;" class="card-text">Price when purchased online</p>
+                                      <a style="font-size: 10px;" href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6"> <!--2-->
+
+
+                                <div class="card p-3 border-1 shadow">
+
+                                    <img style="height: 200px;" class="w-100 rounded-3" src="Photos\water_pot.jpg" class="card-img-top" alt="sorry">
+
+                                    <div class="card-body">
+                                      <h5 style="font-size: 12px;" class="card-title ">Shop Water Bottles in Water Bottles</h5>
+                                      <p style="font-size: 10px;" class="card-text">Price when purchased online</p>
+                                      <a style="font-size: 10px;" href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row border-bottom pb-3 mt-3 ">
+
+                            <div style="width: 200px;" class="col-md-4 border border-2 p-1 m-1 rounded-2 shadow"> <!--1-->
+
+                                <img class="w-100 " src="Photos\CC1.jpg" alt="sorry">
+                                
+                                <h5 style="font-size: 12px;" class="card-title ms-2">Mainstays</h5>
+                                <p style="font-size: 10px;" class="card-text ms-2">Patio furniture & more, under budget</p>
+                                <a style="font-size: 10px;" href="#" class="btn text-dark border-dark btn-sm bg-light rounded-5 text-bold ms-2 mb-3 shop">Shop Now</a>
+
+                            </div>
+
+                            <div style="width: 200px;" class="col-md-4 border border-2 p-1 m-1 rounded-2 shadow"> <!--2-->
+
+                                <img class="w-100 " src="Photos\CC2.jpg" alt="sorry">
+                                
+                                <h5 style="font-size: 12px;" class="card-title ms-2">RH&G</h5>
+                                <p style="font-size: 10px;" class="card-text ms-2">Updated classics with a touch of the day</p>
+                                <a style="font-size: 10px;" href="#" class="btn text-dark border-dark btn-sm bg-light rounded-5 text-bold ms-2  mb-3 shop">Shop Now</a>
+
+                            </div>
+
+                            <div style="width: 200px;" class="col-md-4 border border-2 p-1 m-1 rounded-2 shadow"> <!--3-->
+
+                                <img class="w-100 " src="Photos\CC3.jpg" alt="sorry">
+                                
+                                <h5 style="font-size: 12px;" class="card-title ms-2">Beautiful buy Drew</h5>
+                                <p style="font-size: 10px;" class="card-text ms-2">Joyful appliances for your happy place</p>
+                                <a style="font-size: 10px;" href="#" class="btn text-dark border-dark btn-sm bg-light rounded-5 text-bold ms-2 mb-3 shop">Shop Now</a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row border rounded shadow-sm pb-3 mt-3 mb-3 ">
+
+                            <div class="col-md-4">
+                                <p class="mt-3">New Tranding</p>
+                                <h4>Your style at Walmart</h4>
+                                <p>Spring forward with fashion, home & beauty inspired by real life.</p>
+                                <button class="btn text-dark border-dark btn-sm bg-light rounded-5 text-bold ms-2 mb-3 shop">Shop Now</button>
+
+
+                            </div>
+                            <div class="col-md-8">
+                                <img class="w-100 rounded-3" src="Photos\small_clild.jpg" alt="sorry">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- main -->
+
+    <footer>
+
+        <div class="footer-top bg-primary-subtle w-100 d-flex flex-column justify-content-center align-items-center ">
+            <p class="pt-3">We’d love to hear what you think!</p>
+            <button class="btn btn-sm bg-light border border-dark rounded rounded-5 mb-3" type="button">Give Feedback</button>
+
+
+        </div>
+        <div class="footer-bottom bg-primary">
+            <p class="text-light text-center p-2" style="font-size: 10px;">© 2024 Walmart. All Rights Reserved.</p>
+
+        </div>
+    </footer>
+
+    <!-- footer -->
+
+    <!-- Boosrap -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Boosrap -->
+  </body>
+</html>
